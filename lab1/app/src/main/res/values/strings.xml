@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="components">Значення компонентів палива:</string>
+    <string name="H">H</string>
+    <string name="C">C</string>
+    <string name="S">S</string>
+    <string name="N">N</string>
+    <string name="O">O</string>
+    <string name="W">W</string>
+    <string name="A">A</string>
+    <string name="mass">Розрахунок маси:</string>
+    <string name="dry">Суха маса</string>
+    <string name="fr">Горюча маса</string>
+    <string name="temp">Розрахунок нижньої теплоти згоряння</string>
+    <string name="work">Робоча маса</string>
+    <string name="calc">Результат розрахунків</string>
+</resources>
