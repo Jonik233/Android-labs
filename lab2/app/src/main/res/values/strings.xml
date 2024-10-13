@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="components">Обсяги палива:</string>
+    <string name="H">Донецьке газове вугілля(т)</string>
+    <string name="C">Високосірчистий мазут(т)</string>
+    <string name="S">Природний газ(м^3)</string>
+    <string name="extr">Розрахунок валового викиду</string>
+    <string name="gas">Газ</string>
+    <string name="coal">Вугілля</string>
+    <string name="oil">Мазут</string>
+    <string name="result">Результат розрахунків</string>
+</resources>
