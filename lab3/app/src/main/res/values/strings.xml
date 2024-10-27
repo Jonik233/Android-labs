@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="components">Числові показники:</string>
+    <string name="H">Середньодобова потужність(МВт)</string>
+    <string name="C">Поточне відхилення(МВт)</string>
+    <string name="S">Цільове відхилення(МВт)</string>
+    <string name="V">Вартість електроенергії(грн/кВт*год)</string>
+    <string name="income">Прибуток</string>
+    <string name="calc">Розрахувати</string>
+    <string name="result">Результат розрахунків</string>
+</resources>
