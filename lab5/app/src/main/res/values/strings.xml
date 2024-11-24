@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="components">Числові показники збитків:</string>
+    <string name="fs">Дані одноц. системи:</string>
+    <string name="sc">Дані двоц. системи:</string>
+    <string name="H">Аварійне вимкнення(грн/кВт-год)</string>
+    <string name="C">Планове вимкнення(грн/кВт-год)</string>
+    <string name="S">Інтенсивність відмов</string>
+    <string name="V">Середній час ремонту</string>
+    <string name="btn1">Надійність</string>
+    <string name="btn2">Втрати</string>
+</resources>
