@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="components">Показники:</string>
+    <string name="fs">Дані одноц. системи:</string>
+    <string name="sc">Дані двоц. системи:</string>
+    <string name="H">Найменування ЕП</string>
+    <string name="C">Значення коефіцієнта корисної дії ЕП</string>
+    <string name="S">Коефіцієнт потужності навантаження</string>
+    <string name="V">Напруга навантаження</string>
+    <string name="D">Кількість ЕП</string>
+    <string name="A">Номінальна потужність ЕП</string>
+    <string name="B">Коефіцієнт використання</string>
+    <string name="L">Коефіцієнт реактивної потужності</string>
+    <string name="btn1">Розрахувати</string>
+</resources>
