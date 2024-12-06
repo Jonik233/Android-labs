@@ -99,8 +99,7 @@ class MainActivity : AppCompatActivity() {
 
             val res = generalLosses(emgergPrice, plannePrice)
 
-//            resultTextView.text = "Результат: ${"%.1f".format(res)} грн"
-            resultTextView.text = "Результат: 2682000 грн"
+            resultTextView.text = "Результат: ${"%.1f".format(res)} грн"
         }
 
     }
