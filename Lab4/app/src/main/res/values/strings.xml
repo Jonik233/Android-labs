@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="u">Фазна напруга (U), В</string>
+    <string name="u_enter">Введіть значення</string>
+    <string name="z">Повний опір (Z), Ом</string>
+    <string name="z_enter">Введіть значення</string>
+    <string name="r">Активний опір (R), Ом</string>
+    <string name="r_enter">Введіть значення</string>
+    <string name="x">Реактивний опір (X), Ом</string>
+    <string name="x_enter">Введіть значення</string>
+    <string name="t">Час короткого замикання (t), с</string>
+    <string name="t_enter">Введіть значення</string>
+    <string name="kf">Коефіцієнт форми струму (kf)</string>
+    <string name="kf_enter">Введіть значення</string>
+    <string name="kthermal">Коефіцієнт термічної стійкості (kThermal), А²·с</string>
+    <string name="kthermal_enter">Введіть значення</string>
+    <string name="kdyn">Коефіцієнт динамічної стійкості (kDyn), А</string>
+    <string name="kdyn_enter">Введіть значення</string>
+    <string name="btn">Обчислити</string>
+</resources>

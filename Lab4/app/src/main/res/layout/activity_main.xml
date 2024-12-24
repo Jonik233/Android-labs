@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Input for U -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/u"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_U"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/u_enter"
+            android:inputType="numberDecimal" />
+
+        <!-- Input for Z -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/z"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_Z"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/z_enter"
+            android:inputType="numberDecimal" />
+
+        <!-- Input for R -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/r_enter"
+            android:inputType="numberDecimal" />
+
+        <!-- Input for X -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_X"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/x_enter"
+            android:inputType="numberDecimal" />
+
+        <!-- Input for t -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/t_enter"
+            android:inputType="numberDecimal" />
+
+        <!-- Input for kf -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kf"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_kf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kf_enter"
+            android:inputType="numberDecimal" />
+
+        <!-- Input for kThermal -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kthermal"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_kThermal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kthermal_enter"
+            android:inputType="numberDecimal" />
+
+        <!-- Input for kDyn -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kdyn"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_kDyn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kdyn_enter"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_calculate"
+        app:layout_constraintVertical_bias="0.418" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
